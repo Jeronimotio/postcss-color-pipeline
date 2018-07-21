@@ -1,0 +1,26 @@
+.word {
+    color: word;
+    color: var(--color-word);
+    border: 1px solid word;
+    border: 1px solid var(--color-word);
+    background: linear-gradient(word, word, blue, word);
+    background: linear-gradient(var(--color-word), var(--color-another-word), blue, var(--color-word));
+}
+
+.hex {
+    color: #FFF;
+    color: var(--color-hex);
+    border: 1px solid #FFF;
+    border: 1px solid var(--color-hex);
+    background: linear-gradient(#FFF, #000, blue, #FFF);
+    background: linear-gradient(var(--color-hex), var(--color-another-hex), blue, var(--color-hex));
+}
+
+.rgba {
+    color: rgba(1,1,1,1);
+    color: var(--color-rgba);
+    border: 1px solid rgba(1,1,1,1);
+    border: 1px solid var(--color-rgba);
+    background: linear-gradient(rgba(1,1,1,1), rgba(0,0,0,0), blue, rgba(1,1,1,1));
+    background: linear-gradient(var(--color-rgba), var(--color-another-rgba), blue, var(--color-rgba));
+}

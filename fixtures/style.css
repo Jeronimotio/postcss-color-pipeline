@@ -1,0 +1,17 @@
+.word {
+    color: color-word;
+    border: 1px solid color-word;
+    background: linear-gradient(color-word, color-another-word, blue, color-word);
+}
+
+.hex {
+    color: color-hex;
+    border: 1px solid color-hex;
+    background: linear-gradient(color-hex, color-another-hex, blue, color-hex);
+}
+
+.rgba {
+    color: color-rgba;
+    border: 1px solid color-rgba;
+    background: linear-gradient(color-rgba, color-another-rgba, blue, color-rgba);
+}

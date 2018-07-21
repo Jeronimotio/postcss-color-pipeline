@@ -1,0 +1,11 @@
+{
+  "color-page-background": "color-white",
+  "color-brand": "color-blue",
+
+  "color-chain-page-background": "color-page-background",
+  "color-chain-brand": "color-brand",
+  "color-chain-brand-fallback": "color-chain-brand",
+
+  "color-cycled": "color-cycled",
+  "color-cycled-1": "color-cycled-2"
+}
